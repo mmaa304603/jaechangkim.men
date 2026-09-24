@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Howdy, nice to meet y'all." />
+  <title>Howdy!</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #111;
+      color: #f5f1e8;
+      padding: 2rem;
+    }
+
+    main {
+      width: min(700px, 100%);
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2.5rem, 8vw, 6rem);
+      line-height: 0.95;
+      letter-spacing: -0.06em;
+    }
+
+    p {
+      margin: 0;
+      font-size: clamp(1rem, 2.5vw, 1.35rem);
+      line-height: 1.6;
+      color: #c9c3b8;
+    }
+
+    .exit {
+      margin-top: 2rem;
+      color: #ffcf70;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Howdy, nice to meet y'all!</h1>
+    <p class="exit">Now get out of my property.</p>
+  </main>
+</body>
+</html>
